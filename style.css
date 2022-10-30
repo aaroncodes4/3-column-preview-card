@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffffff;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.maintag {
+    width: 45rem;
+    height: 25rem;
+    display: flex;
+}
+.card1 {
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+    padding: 2rem;
+} 
+
+.card2 {
+    background: hsl(184, 100%, 22%);
+    border-radius: 0px;
+    padding: 2rem;
+    
+}
+
+.card3 {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+    padding: 2rem;
+    
+}
+
+.image {
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+}
+
+.image img {
+    width: 3rem;
+    height: auto;
+   
+}
+
+.content {
+    margin-top: 0.2rem;
+}
+
+.content h2 {
+    font-weight: 700;
+    font-family:  'Big Shoulders Display Black';
+    margin-bottom: 2rem;
+}
+
+.content small{
+    font-family: 'Nexa Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem;
+    color: hsl(31, 77%, 52%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: hsl(31, 77%, 52%);
+    color: #ffffff;
+    border-radius: 1rem;
+    border: 0.2rem #ffffff solid;
+    cursor: pointer;
+}
+
+.content-two {
+    margin-top: 0.2rem;
+}
+
+.content-two h2 {
+    font-weight: 700;
+    font-family:  'Big Shoulders Display Black';
+    margin-bottom: 2rem;
+}
+
+.content-two small{
+    font-family: 'Nexa Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-two {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border-radius:3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem;
+    color: hsl(184, 100%, 22%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.btn-two:hover {
+    background: hsl(184, 100%, 22%);
+    color: #ffffff;
+   
+    border: 0.2rem #ffffff solid;
+    cursor: pointer;
+}
+
+.content-three {
+    margin-top: 0.2rem;
+}
+
+.content-three h2 {
+    font-weight: 700;
+    font-family:  'Big Shoulders Display Black';
+    margin-bottom: 2rem;
+}
+
+.content-three small{
+    font-family: 'Nexa Light';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.btn-three {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 4rem;
+    color: hsl(179, 100%, 13%);
+    font-size: 12px;
+    font-weight: 500;
+}
+.btn-three:hover {
+    background: hsl(179, 100%, 13%);
+    color: #ffffff;
+    border: 0.2rem #ffffff solid;
+    cursor: pointer;
+}
